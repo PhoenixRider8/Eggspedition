@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="82" height="48" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="452">
+ <tileset firstgid="1" source="../tsx/maze.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="82" height="48">
+  <data encoding="csv">
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+</data>
+ </layer>
+ <objectgroup id="2" name="objects">
+  <object id="13" name="objects" type="collidable" gid="1" x="31.7103" y="36.151" width="27" height="15"/>
+  <object id="19" name="objects" type="collidable" gid="1" x="148.333" y="36" width="27" height="15"/>
+  <object id="20" name="objects" type="collidable" gid="1" x="177.667" y="37.3333" width="27" height="15"/>
+  <object id="21" name="objects" type="collidable" gid="1" x="208.333" y="36" width="27" height="15"/>
+  <object id="23" name="objects" type="collidable" gid="1" x="237.667" y="36" width="27" height="15"/>
+  <object id="24" name="objects" type="collidable" gid="1" x="269.667" y="34.6667" width="27" height="15"/>
+  <object id="25" name="objects" type="collidable" gid="1" x="300.333" y="36" width="27" height="15"/>
+  <object id="26" name="objects" type="collidable" gid="1" x="331" y="36" width="27" height="15"/>
+  <object id="27" name="objects" type="collidable" gid="1" x="361.667" y="36" width="27" height="15"/>
+  <object id="28" name="objects" type="collidable" gid="1" x="391" y="36" width="27" height="15"/>
+  <object id="29" name="objects" type="collidable" gid="1" x="421.667" y="34.6667" width="27" height="15"/>
+  <object id="31" name="objects" type="collidable" gid="1" x="452.333" y="33.3333" width="27" height="15"/>
+  <object id="32" name="objects" type="collidable" gid="1" x="483" y="33.3333" width="27" height="15"/>
+  <object id="33" name="objects" type="collidable" gid="1" x="515" y="33.3333" width="27" height="15"/>
+  <object id="35" name="objects" type="collidable" gid="1" x="544.333" y="32" width="27" height="15"/>
+  <object id="36" name="objects" type="collidable" gid="1" x="575" y="32" width="27" height="15"/>
+  <object id="37" name="objects" type="collidable" gid="1" x="605.667" y="30.6667" width="27" height="15"/>
+  <object id="38" name="objects" type="collidable" gid="1" x="637.667" y="30.6667" width="27" height="15"/>
+  <object id="39" name="objects" type="collidable" gid="1" x="668.333" y="30.6667" width="27" height="15"/>
+  <object id="40" name="objects" type="collidable" gid="1" x="700.333" y="33.3333" width="27" height="15"/>
+  <object id="41" name="objects" type="collidable" gid="1" x="731" y="32" width="27" height="15"/>
+  <object id="42" name="objects" type="collidable" gid="1" x="763" y="33.3333" width="27" height="15"/>
+  <object id="43" name="objects" type="collidable" gid="1" x="793.667" y="32" width="27" height="15"/>
+  <object id="44" name="objects" type="collidable" gid="1" x="824.333" y="29.3333" width="27" height="15"/>
+  <object id="45" name="objects" type="collidable" gid="1" x="853.667" y="32" width="27" height="15"/>
+  <object id="46" name="objects" type="collidable" gid="1" x="877.667" y="32" width="27" height="15"/>
+  <object id="47" name="objects" type="collidable" gid="1" x="909.667" y="32" width="27" height="15"/>
+  <object id="48" name="objects" type="collidable" gid="1" x="937.667" y="32" width="27" height="15"/>
+  <object id="49" name="objects" type="collidable" gid="7" x="33" y="67.3333" width="15" height="27"/>
+  <object id="52" name="objects" type="collidable" gid="7" x="33" y="98" width="15" height="27"/>
+  <object id="53" name="objects" type="collidable" gid="7" x="33" y="131.333" width="15" height="27"/>
+  <object id="54" name="objects" type="collidable" gid="7" x="34.3333" y="164.667" width="15" height="27"/>
+  <object id="56" name="objects" type="collidable" gid="7" x="34.3333" y="195.333" width="15" height="27"/>
+  <object id="57" name="objects" type="collidable" gid="7" x="35.6667" y="224.667" width="15" height="27"/>
+  <object id="58" name="objects" type="collidable" gid="7" x="35.6667" y="255.333" width="15" height="27"/>
+  <object id="59" name="objects" type="collidable" gid="7" x="35.6667" y="286" width="15" height="27"/>
+  <object id="60" name="objects" type="collidable" gid="7" x="35.6667" y="319.333" width="15" height="27"/>
+  <object id="61" name="objects" type="collidable" gid="7" x="37" y="354" width="15" height="27"/>
+  <object id="64" name="objects" type="collidable" gid="7" x="35.6667" y="386" width="15" height="27"/>
+  <object id="65" name="objects" type="collidable" gid="7" x="35.6667" y="418" width="15" height="27"/>
+  <object id="66" name="objects" type="collidable" gid="7" x="34.3333" y="451.333" width="15" height="27"/>
+  <object id="67" name="objects" type="collidable" gid="7" x="34.3333" y="483.333" width="15" height="27"/>
+  <object id="69" name="objects" type="collidable" gid="7" x="37" y="514" width="15" height="27"/>
+  <object id="70" name="objects" type="collidable" gid="7" x="37" y="544.667" width="15" height="27"/>
+  <object id="71" name="objects" type="collidable" gid="7" x="37" y="576.667" width="15" height="27"/>
+  <object id="72" name="objects" type="collidable" gid="7" x="37" y="607.333" width="15" height="27"/>
+  <object id="73" name="objects" type="collidable" gid="7" x="37" y="639.333" width="15" height="27"/>
+  <object id="74" name="objects" type="collidable" gid="7" x="37" y="671.333" width="15" height="27"/>
+  <object id="75" name="objects" type="collidable" gid="7" x="35.6667" y="704.667" width="15" height="27"/>
+  <object id="76" name="objects" type="collidable" gid="7" x="35.6667" y="738" width="15" height="27"/>
+  <object id="77" name="objects" type="collidable" gid="7" x="1250" y="57.8333" width="15" height="27"/>
+  <object id="78" name="objects" type="collidable" gid="7" x="1250" y="88.5" width="15" height="27"/>
+  <object id="79" name="objects" type="collidable" gid="7" x="1250" y="121.833" width="15" height="27"/>
+  <object id="80" name="objects" type="collidable" gid="7" x="1250" y="155.167" width="15" height="27"/>
+  <object id="81" name="objects" type="collidable" gid="7" x="1250" y="185.833" width="15" height="27"/>
+  <object id="82" name="objects" type="collidable" gid="7" x="1250" y="215.167" width="15" height="27"/>
+  <object id="83" name="objects" type="collidable" gid="7" x="1250" y="245.833" width="15" height="27"/>
+  <object id="84" name="objects" type="collidable" gid="7" x="1250" y="276.5" width="15" height="27"/>
+  <object id="85" name="objects" type="collidable" gid="7" x="1250" y="309.833" width="15" height="27"/>
+  <object id="86" name="objects" type="collidable" gid="7" x="1250" y="344.5" width="15" height="27"/>
+  <object id="87" name="objects" type="collidable" gid="7" x="1250" y="376.5" width="15" height="27"/>
+  <object id="88" name="objects" type="collidable" gid="7" x="1250" y="408.5" width="15" height="27"/>
+  <object id="89" name="objects" type="collidable" gid="7" x="1250" y="441.833" width="15" height="27"/>
+  <object id="90" name="objects" type="collidable" gid="7" x="1250" y="473.833" width="15" height="27"/>
+  <object id="91" name="objects" type="collidable" gid="7" x="1250" y="504.5" width="15" height="27"/>
+  <object id="92" name="objects" type="collidable" gid="7" x="1250" y="535.167" width="15" height="27"/>
+  <object id="93" name="objects" type="collidable" gid="7" x="1250" y="567.167" width="15" height="27"/>
+  <object id="94" name="objects" type="collidable" gid="7" x="1250" y="597.833" width="15" height="27"/>
+  <object id="95" name="objects" type="collidable" gid="7" x="1250" y="629.833" width="15" height="27"/>
+  <object id="96" name="objects" type="collidable" gid="7" x="1250" y="661.833" width="15" height="27"/>
+  <object id="97" name="objects" type="collidable" gid="7" x="1250" y="695.167" width="15" height="27"/>
+  <object id="98" name="objects" type="collidable" gid="7" x="1250" y="728.5" width="15" height="27"/>
+  <object id="99" name="objects" type="collidable" gid="1" x="969.667" y="33.3333" width="27" height="15"/>
+  <object id="100" name="objects" type="collidable" gid="1" x="999" y="33.3333" width="27" height="15"/>
+  <object id="101" name="objects" type="collidable" gid="1" x="1031" y="33.3333" width="27" height="15"/>
+  <object id="102" name="objects" type="collidable" gid="1" x="1061.67" y="33.3333" width="27" height="15"/>
+  <object id="104" name="objects" type="collidable" gid="1" x="1091" y="32" width="27" height="15"/>
+  <object id="105" name="objects" type="collidable" gid="1" x="1120.33" y="33.3333" width="27" height="15"/>
+  <object id="106" name="objects" type="collidable" gid="1" x="1151" y="33.3333" width="27" height="15"/>
+  <object id="107" name="objects" type="collidable" gid="1" x="1181.67" y="33.3333" width="27" height="15"/>
+  <object id="109" name="objects" type="collidable" gid="1" x="1209.67" y="32" width="27" height="15"/>
+  <object id="110" name="objects" type="collidable" gid="1" x="1236.33" y="30.6667" width="27" height="15"/>
+  <object id="275" name="objects" type="collidable" gid="1" x="33.19" y="738.32" width="27" height="15"/>
+  <object id="276" name="objects" type="collidable" gid="1" x="59.9971" y="738.32" width="27" height="15"/>
+  <object id="277" name="objects" type="collidable" gid="1" x="88.1466" y="738.32" width="27" height="15"/>
+  <object id="278" name="objects" type="collidable" gid="1" x="117.48" y="738.32" width="27" height="15"/>
+  <object id="279" name="objects" type="collidable" gid="1" x="146.813" y="738.32" width="27" height="15"/>
+  <object id="280" name="objects" type="collidable" gid="1" x="176.147" y="738.32" width="27" height="15"/>
+  <object id="281" name="objects" type="collidable" gid="1" x="206.813" y="738.32" width="27" height="15"/>
+  <object id="282" name="objects" type="collidable" gid="1" x="236.147" y="738.32" width="27" height="15"/>
+  <object id="283" name="objects" type="collidable" gid="1" x="268.147" y="738.32" width="27" height="15"/>
+  <object id="284" name="objects" type="collidable" gid="1" x="298.813" y="738.32" width="27" height="15"/>
+  <object id="285" name="objects" type="collidable" gid="1" x="329.48" y="738.32" width="27" height="15"/>
+  <object id="286" name="objects" type="collidable" gid="1" x="360.147" y="738.32" width="27" height="15"/>
+  <object id="287" name="objects" type="collidable" gid="1" x="389.48" y="738.32" width="27" height="15"/>
+  <object id="288" name="objects" type="collidable" gid="1" x="420.147" y="738.32" width="27" height="15"/>
+  <object id="289" name="objects" type="collidable" gid="1" x="450.813" y="738.32" width="27" height="15"/>
+  <object id="290" name="objects" type="collidable" gid="1" x="481.48" y="738.32" width="27" height="15"/>
+  <object id="291" name="objects" type="collidable" gid="1" x="513.48" y="738.32" width="27" height="15"/>
+  <object id="292" name="objects" type="collidable" gid="1" x="542.813" y="738.32" width="27" height="15"/>
+  <object id="293" name="objects" type="collidable" gid="1" x="573.48" y="738.32" width="27" height="15"/>
+  <object id="294" name="objects" type="collidable" gid="1" x="604.147" y="738.32" width="27" height="15"/>
+  <object id="295" name="objects" type="collidable" gid="1" x="636.147" y="738.32" width="27" height="15"/>
+  <object id="296" name="objects" type="collidable" gid="1" x="666.813" y="738.32" width="27" height="15"/>
+  <object id="297" name="objects" type="collidable" gid="1" x="698.813" y="738.32" width="27" height="15"/>
+  <object id="298" name="objects" type="collidable" gid="1" x="729.48" y="738.32" width="27" height="15"/>
+  <object id="299" name="objects" type="collidable" gid="1" x="761.48" y="738.32" width="27" height="15"/>
+  <object id="300" name="objects" type="collidable" gid="1" x="792.147" y="738.32" width="27" height="15"/>
+  <object id="301" name="objects" type="collidable" gid="1" x="822.813" y="738.32" width="27" height="15"/>
+  <object id="302" name="objects" type="collidable" gid="1" x="852.147" y="738.32" width="27" height="15"/>
+  <object id="303" name="objects" type="collidable" gid="1" x="876.147" y="738.32" width="27" height="15"/>
+  <object id="304" name="objects" type="collidable" gid="1" x="908.147" y="738.32" width="27" height="15"/>
+  <object id="305" name="objects" type="collidable" gid="1" x="936.147" y="738.32" width="27" height="15"/>
+  <object id="306" name="objects" type="collidable" gid="1" x="968.147" y="738.32" width="27" height="15"/>
+  <object id="307" name="objects" type="collidable" gid="1" x="997.48" y="738.32" width="27" height="15"/>
+  <object id="308" name="objects" type="collidable" gid="1" x="1029.48" y="738.32" width="27" height="15"/>
+  <object id="309" name="objects" type="collidable" gid="1" x="1060.15" y="738.32" width="27" height="15"/>
+  <object id="310" name="objects" type="collidable" gid="1" x="1089.48" y="738.32" width="27" height="15"/>
+  <object id="311" name="objects" type="collidable" gid="1" x="1118.81" y="738.32" width="27" height="15"/>
+  <object id="315" name="objects" type="collidable" gid="1" x="1234.81" y="738.32" width="27" height="15"/>
+  <object id="316" name="objects" type="collidable" gid="8" x="329" y="101" width="14" height="61"/>
+  <object id="319" name="objects" type="collidable" gid="8" x="329" y="165" width="14" height="61"/>
+  <object id="320" name="objects" type="collidable" gid="8" x="331" y="231" width="14" height="61"/>
+  <object id="321" name="objects" type="collidable" gid="6" x="284" y="239" width="61" height="14"/>
+  <object id="322" name="objects" type="collidable" gid="6" x="224" y="241" width="61" height="14"/>
+  <object id="324" name="objects" type="collidable" gid="6" x="164" y="239" width="61" height="14"/>
+  <object id="327" name="objects" type="collidable" gid="3" x="304" y="214" width="32" height="32"/>
+  <object id="329" name="objects" type="collidable" gid="6" x="52" y="409" width="61" height="14"/>
+  <object id="331" name="objects" type="collidable" gid="6" x="114" y="409" width="61" height="14"/>
+  <object id="332" name="objects" type="collidable" gid="6" x="344" y="237" width="61" height="14"/>
+  <object id="334" name="objects" type="collidable" gid="6" x="154" y="505" width="61" height="14"/>
+  <object id="335" name="objects" type="collidable" gid="6" x="214" y="505" width="61" height="14"/>
+  <object id="337" name="objects" type="collidable" gid="6" x="276" y="505" width="61" height="14"/>
+  <object id="339" name="objects" type="collidable" gid="6" x="338" y="401" width="61" height="14"/>
+  <object id="341" name="objects" type="collidable" gid="6" x="402" y="401" width="61" height="14"/>
+  <object id="342" name="objects" type="collidable" gid="8" x="325" y="445" width="14" height="61"/>
+  <object id="343" name="objects" type="collidable" gid="8" x="327" y="507" width="14" height="61"/>
+  <object id="345" name="objects" type="collidable" gid="8" x="451" y="385" width="14" height="61"/>
+  <object id="346" name="objects" type="collidable" gid="8" x="449" y="319" width="14" height="61"/>
+  <object id="347" name="objects" type="collidable" gid="8" x="449" y="253" width="14" height="61"/>
+  <object id="348" name="objects" type="collidable" gid="6" x="396" y="237" width="61" height="14"/>
+  <object id="349" name="objects" type="collidable" gid="3" x="426" y="216" width="32" height="32"/>
+  <object id="351" name="objects" type="collidable" gid="4" x="55" y="381" width="38" height="29"/>
+  <object id="352" name="objects" type="collidable" gid="6" x="454" y="125" width="61" height="14"/>
+  <object id="353" name="objects" type="collidable" gid="6" x="520" y="125" width="61" height="14"/>
+  <object id="354" name="objects" type="collidable" gid="8" x="645" y="87" width="14" height="61"/>
+  <object id="355" name="objects" type="collidable" gid="8" x="645" y="149" width="14" height="61"/>
+  <object id="356" name="objects" type="collidable" gid="8" x="567" y="189" width="14" height="61"/>
+  <object id="357" name="objects" type="collidable" gid="8" x="567" y="253" width="14" height="61"/>
+  <object id="358" name="objects" type="collidable" gid="8" x="571" y="435" width="14" height="61"/>
+  <object id="359" name="objects" type="collidable" gid="8" x="571" y="499" width="14" height="61"/>
+  <object id="360" name="objects" type="collidable" gid="8" x="457" y="593" width="14" height="61"/>
+  <object id="361" name="objects" type="collidable" gid="8" x="457" y="657" width="14" height="61"/>
+  <object id="362" name="objects" type="collidable" gid="8" x="459" y="721" width="14" height="61"/>
+  <object id="363" name="objects" type="collidable" gid="6" x="578" y="253" width="61" height="14"/>
+  <object id="364" name="objects" type="collidable" gid="6" x="636" y="253" width="61" height="14"/>
+  <object id="367" name="objects" type="collidable" gid="6" x="52" y="623" width="61" height="14"/>
+  <object id="368" name="objects" type="collidable" gid="6" x="116" y="623" width="61" height="14"/>
+  <object id="369" name="objects" type="collidable" gid="6" x="182" y="625" width="61" height="14"/>
+  <object id="370" name="objects" type="collidable" gid="6" x="248" y="623" width="61" height="14"/>
+  <object id="371" name="objects" type="collidable" gid="4" x="169" y="661" width="38" height="29"/>
+  <object id="375" name="objects" type="collidable" gid="6" x="572" y="513" width="61" height="14"/>
+  <object id="377" name="objects" type="collidable" gid="6" x="636" y="513" width="61" height="14"/>
+  <object id="378" name="objects" type="collidable" gid="8" x="683" y="319" width="14" height="61"/>
+  <object id="379" name="objects" type="collidable" gid="8" x="683" y="383" width="14" height="61"/>
+  <object id="380" name="objects" type="collidable" gid="6" x="700" y="513" width="61" height="14"/>
+  <object id="382" name="objects" type="collidable" gid="6" x="764" y="513" width="61" height="14"/>
+  <object id="383" name="objects" type="collidable" gid="6" x="686" y="399" width="61" height="14"/>
+  <object id="386" name="objects" type="collidable" gid="6" x="748" y="399" width="61" height="14"/>
+  <object id="388" name="objects" type="collidable" gid="6" x="812" y="399" width="61" height="14"/>
+  <object id="389" name="objects" type="collidable" gid="8" x="795" y="463" width="14" height="61"/>
+  <object id="391" name="objects" type="collidable" gid="8" x="795" y="515" width="14" height="61"/>
+  <object id="392" name="objects" type="collidable" gid="6" x="776" y="137" width="61" height="14"/>
+  <object id="393" name="objects" type="collidable" gid="6" x="842" y="139" width="61" height="14"/>
+  <object id="394" name="objects" type="collidable" gid="6" x="908" y="139" width="61" height="14"/>
+  <object id="395" name="objects" type="collidable" gid="6" x="976" y="139" width="61" height="14"/>
+  <object id="396" name="objects" type="collidable" gid="6" x="1184" y="329" width="61" height="14"/>
+  <object id="398" name="objects" type="collidable" gid="6" x="1120" y="329" width="61" height="14"/>
+  <object id="399" name="objects" type="collidable" gid="6" x="992" y="519" width="61" height="14"/>
+  <object id="401" name="objects" type="collidable" gid="6" x="1056" y="519" width="61" height="14"/>
+  <object id="402" name="objects" type="collidable" gid="6" x="1122" y="519" width="61" height="14"/>
+  <object id="403" name="objects" type="collidable" gid="6" x="1184" y="519" width="61" height="14"/>
+  <object id="404" name="objects" type="collidable" gid="8" x="775" y="203" width="14" height="61"/>
+  <object id="407" name="objects" type="collidable" gid="8" x="873" y="199" width="14" height="61"/>
+  <object id="409" name="objects" type="collidable" gid="8" x="873" y="263" width="14" height="61"/>
+  <object id="410" name="objects" type="collidable" gid="8" x="873" y="327" width="14" height="61"/>
+  <object id="412" name="objects" type="collidable" gid="8" x="873" y="395" width="14" height="61"/>
+  <object id="415" name="objects" type="collidable" gid="8" x="1103" y="375" width="14" height="61"/>
+  <object id="416" name="objects" type="collidable" gid="8" x="1103" y="441" width="14" height="61"/>
+  <object id="417" name="objects" type="collidable" gid="6" x="470" y="625" width="61" height="14"/>
+  <object id="418" name="objects" type="collidable" gid="6" x="530" y="625" width="61" height="14"/>
+  <object id="419" name="objects" type="collidable" gid="6" x="594" y="625" width="61" height="14"/>
+  <object id="420" name="objects" type="collidable" gid="8" x="661" y="651" width="14" height="61"/>
+  <object id="421" name="objects" type="collidable" gid="3" x="1218" y="494" width="32" height="32"/>
+  <object id="423" name="objects" type="collidable" gid="4" x="807" y="213" width="38" height="29"/>
+  <object id="424" name="objects" type="collidable" gid="3" x="706" y="372" width="32" height="32"/>
+  <object id="425" name="objects" type="collidable" gid="3" x="772" y="498" width="32" height="32"/>
+  <object id="430" name="gems" type="gemLocations" x="424" y="372">
+   <point/>
+  </object>
+  <object id="432" name="gems" type="gemLocations" x="74" y="706">
+   <point/>
+  </object>
+  <object id="433" name="gems" type="gemLocations" x="506" y="698">
+   <point/>
+  </object>
+  <object id="434" name="gems" type="gemLocations" x="840" y="362">
+   <point/>
+  </object>
+  <object id="435" name="gems" type="gemLocations" x="1136" y="354">
+   <point/>
+  </object>
+  <object id="436" name="objects" type="collidable" gid="6" x="392" y="123" width="61" height="14"/>
+  <object id="437" name="objects" type="collidable" gid="6" x="336" y="121" width="61" height="14"/>
+  <object id="438" name="pharoah" type="locationP" x="136.4" y="58.6095">
+   <point/>
+  </object>
+  <object id="442" name="Duffy" type="locationD" x="101.235" y="125.744">
+   <point/>
+  </object>
+  <object id="443" name="Sam" type="locationS" x="181.157" y="126.81">
+   <point/>
+  </object>
+  <object id="444" name="pharoah" type="locationP" x="907.914" y="511.501">
+   <point/>
+  </object>
+  <object id="447" name="Sam" type="locationS" x="955.867" y="581.832">
+   <point/>
+  </object>
+  <object id="449" name="Duffy" type="locationD" x="851.436" y="580.767">
+   <point/>
+  </object>
+  <object id="451" name="teleport" type="locationT" x="1190.31" y="733.151">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="82" height="48" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="267">
+ <tileset firstgid="1" source="../tsx/tilemap.tsx"/>
+ <tileset firstgid="133" source="../tsx/objects.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="82" height="48">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,96,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,44,44,44,44,44,44,44,44,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,44,44,1,1,1,1,1,1,1,44,44,44,1,96,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,44,1,1,3,1,1,1,1,1,1,1,44,44,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,44,1,3,1,1,1,1,1,1,3,1,1,1,44,44,44,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,3,1,3,1,1,1,1,44,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,44,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,3,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,44,44,44,44,44,44,1,1,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,44,44,44,1,1,44,1,1,1,1,1,1,3,1,44,44,44,3,1,1,1,44,44,44,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,44,44,1,44,44,44,44,1,1,1,1,1,1,1,44,44,1,1,1,1,1,1,1,1,44,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,44,44,1,1,1,1,44,44,1,1,1,1,1,1,44,44,1,1,1,1,1,1,1,1,1,1,44,44,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,44,44,44,44,44,44,44,44,44,44,44,1,1,1,1,1,44,1,1,1,1,1,1,1,44,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,44,44,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,44,1,1,1,1,1,1,44,44,1,1,1,1,1,1,1,1,1,44,44,44,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,1,1,1,1,3,1,1,44,1,1,1,1,1,1,1,44,44,44,44,1,1,1,44,44,44,44,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,3,1,1,44,1,1,1,1,1,1,1,1,44,1,1,1,3,1,1,1,1,1,1,44,44,44,44,44,1,1,1,1,44,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,44,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,44,1,1,1,1,3,1,1,1,1,44,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,44,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,1,1,1,1,1,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,1,44,44,44,44,44,1,1,1,1,3,1,1,1,1,3,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,44,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,44,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,3,1,1,1,1,1,3,1,3,1,1,1,1,1,1,1,44,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,44,44,1,1,1,1,1,1,1,44,1,1,1,44,44,44,44,44,44,1,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,44,44,44,44,44,44,44,44,44,44,44,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,44,1,1,44,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,44,1,1,44,1,1,1,1,1,3,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,3,1,1,1,44,1,1,44,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,44,1,1,44,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,44,1,1,44,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,44,1,1,44,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,1,44,1,1,44,1,1,1,1,1,1,1,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,1,1,1,1,1,1,1,44,1,1,44,44,44,44,1,1,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,1,1,1,1,44,44,44,1,1,1,1,1,44,44,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44,44,44,44,44,44,1,1,1,1,1,1,1,1,44,44,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="2" name="objects">
+  <object id="25" name="call" type="collidable" gid="133" x="97.3333" y="302" width="64" height="47"/>
+  <object id="26" name="call" type="collidable" gid="133" x="480.667" y="94.6667" width="64" height="47"/>
+  <object id="27" name="call" type="collidable" gid="133" x="1056.67" y="527.333" width="64" height="47"/>
+  <object id="28" name="call" type="collidable" gid="133" x="1118.67" y="206.667" width="64" height="47"/>
+  <object id="29" name="call" type="collidable" gid="134" x="254.667" y="480" width="65" height="48"/>
+  <object id="30" name="call" type="collidable" gid="134" x="256" y="159.333" width="65" height="48"/>
+  <object id="31" name="call" type="collidable" gid="134" x="800.667" y="128.667" width="65" height="48"/>
+  <object id="32" name="call" type="collidable" gid="134" x="736.667" y="480" width="65" height="48"/>
+  <object id="36" name="call" type="collidable" gid="4" x="720.667" y="464" width="16" height="16"/>
+  <object id="37" name="call" type="collidable" gid="16" x="721.333" y="480.667" width="16" height="16"/>
+  <object id="38" name="call" type="collidable" gid="4" x="784" y="112" width="16" height="16"/>
+  <object id="39" name="call" type="collidable" gid="16" x="784.667" y="129.333" width="16" height="16"/>
+  <object id="40" name="call" type="collidable" gid="5" x="464.667" y="79.3333" width="16" height="16"/>
+  <object id="42" name="call" type="collidable" gid="17" x="464.667" y="95.3333" width="16" height="16"/>
+  <object id="43" name="call" type="collidable" gid="30" x="800.667" y="480.667" width="16" height="16"/>
+  <object id="44" name="call" type="collidable" gid="30" x="321.333" y="159.333" width="16" height="16"/>
+  <object id="45" name="call" type="collidable" gid="30" x="319.333" y="480.667" width="16" height="16"/>
+  <object id="46" name="call" type="collidable" gid="105" x="368" y="285.333" width="16" height="16"/>
+  <object id="47" name="call" type="collidable" gid="93" x="368" y="268.667" width="16" height="16"/>
+  <object id="48" name="call" type="collidable" gid="132" x="352.667" y="284.667" width="16" height="16"/>
+  <object id="51" name="call" type="collidable" gid="135" x="309.333" y="289.333" width="45" height="48"/>
+  <object id="54" name="call" type="collidable" gid="95" x="704" y="479.333" width="16" height="16"/>
+  <object id="59" name="call" type="collidable" gid="108" x="990.667" y="313.333" width="16" height="16"/>
+  <object id="60" name="call" type="collidable" gid="16" x="975.333" y="318" width="16" height="16"/>
+  <object id="61" name="call" type="collidable" gid="4" x="974.667" y="301.333" width="16" height="16"/>
+  <object id="101" name="call" type="collidable" gid="29" x="13.3333" y="48" width="16" height="16"/>
+  <object id="103" name="call" type="collidable" gid="29" x="80.6667" y="56.6667" width="16" height="16"/>
+  <object id="104" name="call" type="collidable" gid="29" x="20.6667" y="26.6667" width="16" height="16"/>
+  <object id="105" name="call" type="collidable" gid="29" x="20.6667" y="26.6667" width="16" height="16"/>
+  <object id="106" name="call" type="collidable" gid="29" x="11.3333" y="18.6667" width="16" height="16"/>
+  <object id="107" name="call" type="collidable" gid="29" x="24" y="23.3333" width="16" height="16"/>
+  <object id="108" name="call" type="collidable" gid="29" x="27.3333" y="50" width="16" height="16"/>
+  <object id="109" name="call" type="collidable" gid="29" x="40.6667" y="58.6667" width="16" height="16"/>
+  <object id="110" name="call" type="collidable" gid="29" x="0.666667" y="82" width="16" height="16"/>
+  <object id="111" name="call" type="collidable" gid="29" x="19.3333" y="133.333" width="16" height="16"/>
+  <object id="112" name="call" type="collidable" gid="29" x="44" y="138.667" width="16" height="16"/>
+  <object id="113" name="call" type="collidable" gid="29" x="64" y="78.6667" width="16" height="16"/>
+  <object id="114" name="call" type="collidable" gid="29" x="60.6667" y="94" width="16" height="16"/>
+  <object id="115" name="call" type="collidable" gid="29" x="129.333" y="139.333" width="16" height="16"/>
+  <object id="116" name="call" type="collidable" gid="29" x="175.333" y="127.333" width="16" height="16"/>
+  <object id="117" name="call" type="collidable" gid="29" x="158.667" y="293.333" width="16" height="16"/>
+  <object id="118" name="call" type="collidable" gid="29" x="150" y="310" width="16" height="16"/>
+  <object id="119" name="call" type="collidable" gid="29" x="13.3333" y="447.333" width="16" height="16"/>
+  <object id="120" name="call" type="collidable" gid="29" x="164" y="448" width="16" height="16"/>
+  <object id="121" name="call" type="collidable" gid="29" x="190" y="431.333" width="16" height="16"/>
+  <object id="122" name="call" type="collidable" gid="29" x="200" y="342" width="16" height="16"/>
+  <object id="123" name="call" type="collidable" gid="29" x="136.667" y="234.667" width="16" height="16"/>
+  <object id="124" name="call" type="collidable" gid="29" x="84.6667" y="304" width="16" height="16"/>
+  <object id="125" name="call" type="collidable" gid="29" x="172.667" y="393.333" width="16" height="16"/>
+  <object id="126" name="call" type="collidable" gid="29" x="315.333" y="386.667" width="16" height="16"/>
+  <object id="127" name="call" type="collidable" gid="29" x="446.667" y="403.333" width="16" height="16"/>
+  <object id="128" name="call" type="collidable" gid="29" x="497.333" y="411.333" width="16" height="16"/>
+  <object id="129" name="call" type="collidable" gid="29" x="356.667" y="244.667" width="16" height="16"/>
+  <object id="130" name="call" type="collidable" gid="29" x="340.667" y="136" width="16" height="16"/>
+  <object id="131" name="call" type="collidable" gid="29" x="512.667" y="171.333" width="16" height="16"/>
+  <object id="133" name="call" type="collidable" gid="29" x="500" y="155.333" width="16" height="16"/>
+  <object id="134" name="call" type="collidable" gid="29" x="518" y="360.667" width="16" height="16"/>
+  <object id="135" name="call" type="collidable" gid="29" x="453.333" y="316.667" width="16" height="16"/>
+  <object id="136" name="call" type="collidable" gid="29" x="448.667" y="142" width="16" height="16"/>
+  <object id="137" name="call" type="collidable" gid="29" x="408" y="120" width="16" height="16"/>
+  <object id="138" name="call" type="collidable" gid="29" x="412.667" y="200.667" width="16" height="16"/>
+  <object id="139" name="call" type="collidable" gid="29" x="380" y="464" width="16" height="16"/>
+  <object id="140" name="call" type="collidable" gid="29" x="223" y="154" width="16" height="16"/>
+  <object id="141" name="call" type="collidable" gid="29" x="183" y="645" width="16" height="16"/>
+  <object id="142" name="call" type="collidable" gid="29" x="415" y="586" width="16" height="16"/>
+  <object id="143" name="call" type="collidable" gid="29" x="423" y="600" width="16" height="16"/>
+  <object id="144" name="call" type="collidable" gid="29" x="123" y="509" width="16" height="16"/>
+  <object id="145" name="call" type="collidable" gid="29" x="190" y="669" width="16" height="16"/>
+  <object id="146" name="call" type="collidable" gid="29" x="353" y="687" width="16" height="16"/>
+  <object id="147" name="call" type="collidable" gid="29" x="308" y="614" width="16" height="16"/>
+  <object id="148" name="call" type="collidable" gid="29" x="215" y="590" width="16" height="16"/>
+  <object id="149" name="call" type="collidable" gid="29" x="264" y="704" width="16" height="16"/>
+  <object id="150" name="call" type="collidable" gid="29" x="401" y="739" width="16" height="16"/>
+  <object id="151" name="call" type="collidable" gid="29" x="540" y="705" width="16" height="16"/>
+  <object id="152" name="call" type="collidable" gid="29" x="676" y="666" width="16" height="16"/>
+  <object id="153" name="call" type="collidable" gid="29" x="778" y="637" width="16" height="16"/>
+  <object id="154" name="call" type="collidable" gid="29" x="548" y="485" width="16" height="16"/>
+  <object id="157" name="call" type="collidable" gid="29" x="607" y="40" width="16" height="16"/>
+  <object id="158" name="call" type="collidable" gid="29" x="801" y="42" width="16" height="16"/>
+  <object id="167" name="call" type="collidable" gid="29" x="945" y="99" width="16" height="16"/>
+  <object id="168" name="call" type="collidable" gid="29" x="894" y="308" width="16" height="16"/>
+  <object id="169" name="call" type="collidable" gid="29" x="1144" y="351" width="16" height="16"/>
+  <object id="170" name="call" type="collidable" gid="29" x="988" y="242" width="16" height="16"/>
+  <object id="171" name="call" type="collidable" gid="29" x="966" y="171" width="16" height="16"/>
+  <object id="172" name="call" type="collidable" gid="29" x="1120" y="75" width="16" height="16"/>
+  <object id="173" name="call" type="collidable" gid="29" x="1122" y="254" width="16" height="16"/>
+  <object id="174" name="call" type="collidable" gid="29" x="1068" y="129" width="16" height="16"/>
+  <object id="175" name="call" type="collidable" gid="29" x="1020" y="49" width="16" height="16"/>
+  <object id="176" name="call" type="collidable" gid="29" x="1167" y="155" width="16" height="16"/>
+  <object id="177" name="call" type="collidable" gid="29" x="1225" y="265" width="16" height="16"/>
+  <object id="178" name="call" type="collidable" gid="29" x="1193" y="302" width="16" height="16"/>
+  <object id="179" name="call" type="collidable" gid="29" x="1201" y="393" width="16" height="16"/>
+  <object id="180" name="call" type="collidable" gid="29" x="1216" y="490" width="16" height="16"/>
+  <object id="181" name="call" type="collidable" gid="29" x="1005" y="422" width="16" height="16"/>
+  <object id="182" name="call" type="collidable" gid="29" x="1128" y="331" width="16" height="16"/>
+  <object id="183" name="call" type="collidable" gid="29" x="1094" y="381" width="16" height="16"/>
+  <object id="184" name="call" type="collidable" gid="29" x="1077" y="364" width="16" height="16"/>
+  <object id="185" name="call" type="collidable" gid="29" x="1119" y="461" width="16" height="16"/>
+  <object id="186" name="call" type="collidable" gid="29" x="990" y="446" width="16" height="16"/>
+  <object id="187" name="call" type="collidable" gid="29" x="883" y="372" width="16" height="16"/>
+  <object id="188" name="call" type="collidable" gid="29" x="935" y="509" width="16" height="16"/>
+  <object id="189" name="call" type="collidable" gid="29" x="956" y="602" width="16" height="16"/>
+  <object id="190" name="call" type="collidable" gid="29" x="960" y="419" width="16" height="16"/>
+  <object id="191" name="call" type="collidable" gid="29" x="920" y="474" width="16" height="16"/>
+  <object id="192" name="call" type="collidable" gid="29" x="929" y="651" width="16" height="16"/>
+  <object id="193" name="call" type="collidable" gid="29" x="865" y="544" width="16" height="16"/>
+  <object id="194" name="call" type="collidable" gid="29" x="801" y="557" width="16" height="16"/>
+  <object id="195" name="call" type="collidable" gid="29" x="888" y="697" width="16" height="16"/>
+  <object id="196" name="call" type="collidable" gid="29" x="1061" y="669" width="16" height="16"/>
+  <object id="197" name="call" type="collidable" gid="29" x="1066" y="645" width="16" height="16"/>
+  <object id="198" name="call" type="collidable" gid="29" x="1021" y="739" width="16" height="16"/>
+  <object id="199" name="call" type="collidable" gid="29" x="1162" y="686" width="16" height="16"/>
+  <object id="200" name="call" type="collidable" gid="29" x="1119" y="597" width="16" height="16"/>
+  <object id="201" name="call" type="collidable" gid="29" x="1015" y="593" width="16" height="16"/>
+  <object id="202" name="call" type="collidable" gid="29" x="991" y="697" width="16" height="16"/>
+  <object id="203" name="call" type="collidable" gid="29" x="1151" y="740" width="16" height="16"/>
+  <object id="204" name="call" type="collidable" gid="29" x="1202" y="580" width="16" height="16"/>
+  <object id="205" name="call" type="collidable" gid="29" x="705" y="557" width="16" height="16"/>
+  <object id="206" name="call" type="collidable" gid="29" x="518" y="604" width="16" height="16"/>
+  <object id="207" name="call" type="collidable" gid="28" x="28" y="69" width="16" height="16"/>
+  <object id="208" name="call" type="collidable" gid="28" x="62" y="52" width="16" height="16"/>
+  <object id="209" name="call" type="collidable" gid="28" x="53" y="128" width="16" height="16"/>
+  <object id="210" name="call" type="collidable" gid="28" x="146" y="126" width="16" height="16"/>
+  <object id="211" name="call" type="collidable" gid="28" x="31" y="183" width="16" height="16"/>
+  <object id="212" name="call" type="collidable" gid="28" x="12" y="306" width="16" height="16"/>
+  <object id="213" name="call" type="collidable" gid="28" x="62" y="409" width="16" height="16"/>
+  <object id="214" name="call" type="collidable" gid="28" x="62" y="595" width="16" height="16"/>
+  <object id="215" name="call" type="collidable" gid="28" x="166" y="622" width="16" height="16"/>
+  <object id="216" name="call" type="collidable" gid="28" x="108" y="678" width="16" height="16"/>
+  <object id="217" name="call" type="collidable" gid="28" x="10" y="765" width="16" height="16"/>
+  <object id="218" name="call" type="collidable" gid="28" x="5" y="661" width="16" height="16"/>
+  <object id="219" name="call" type="collidable" gid="28" x="56" y="730" width="16" height="16"/>
+  <object id="220" name="call" type="collidable" gid="28" x="100" y="773" width="16" height="16"/>
+  <object id="221" name="call" type="collidable" gid="28" x="186" y="771" width="16" height="16"/>
+  <object id="222" name="call" type="collidable" gid="28" x="218" y="750" width="16" height="16"/>
+  <object id="223" name="call" type="collidable" gid="28" x="160" y="725" width="16" height="16"/>
+  <object id="224" name="call" type="collidable" gid="28" x="460" y="749" width="16" height="16"/>
+  <object id="225" name="call" type="collidable" gid="28" x="430" y="675" width="16" height="16"/>
+  <object id="226" name="call" type="collidable" gid="28" x="505" y="727" width="16" height="16"/>
+  <object id="227" name="call" type="collidable" gid="28" x="633" y="755" width="16" height="16"/>
+  <object id="228" name="call" type="collidable" gid="28" x="717" y="736" width="16" height="16"/>
+  <object id="229" name="call" type="collidable" gid="28" x="649" y="672" width="16" height="16"/>
+  <object id="230" name="call" type="collidable" gid="28" x="613" y="685" width="16" height="16"/>
+  <object id="231" name="call" type="collidable" gid="28" x="618" y="729" width="16" height="16"/>
+  <object id="232" name="call" type="collidable" gid="28" x="780" y="729" width="16" height="16"/>
+  <object id="233" name="call" type="collidable" gid="28" x="757" y="664" width="16" height="16"/>
+  <object id="234" name="call" type="collidable" gid="28" x="846" y="722" width="16" height="16"/>
+  <object id="235" name="call" type="collidable" gid="28" x="873" y="755" width="16" height="16"/>
+  <object id="236" name="call" type="collidable" gid="28" x="935" y="760" width="16" height="16"/>
+  <object id="237" name="call" type="collidable" gid="28" x="945" y="701" width="16" height="16"/>
+  <object id="238" name="call" type="collidable" gid="28" x="1062" y="684" width="16" height="16"/>
+  <object id="239" name="call" type="collidable" gid="28" x="977" y="631" width="16" height="16"/>
+  <object id="240" name="call" type="collidable" gid="28" x="1051" y="749" width="16" height="16"/>
+  <object id="241" name="call" type="collidable" gid="28" x="1185" y="664" width="16" height="16"/>
+  <object id="242" name="call" type="collidable" gid="28" x="1104" y="634" width="16" height="16"/>
+  <object id="243" name="call" type="collidable" gid="28" x="1152" y="545" width="16" height="16"/>
+  <object id="244" name="call" type="collidable" gid="28" x="1210" y="650" width="16" height="16"/>
+  <object id="245" name="call" type="collidable" gid="28" x="1155" y="604" width="16" height="16"/>
+  <object id="246" name="call" type="collidable" gid="28" x="1182" y="449" width="16" height="16"/>
+  <object id="247" name="call" type="collidable" gid="28" x="1137" y="410" width="16" height="16"/>
+  <object id="248" name="call" type="collidable" gid="28" x="1056" y="237" width="16" height="16"/>
+  <object id="249" name="call" type="collidable" gid="28" x="1035" y="310" width="16" height="16"/>
+  <object id="250" name="call" type="collidable" gid="28" x="1105" y="320" width="16" height="16"/>
+  <object id="251" name="call" type="collidable" gid="28" x="1061" y="181" width="16" height="16"/>
+  <object id="252" name="call" type="collidable" gid="133" x="555" y="573" width="64" height="47"/>
+  <object id="253" name="call" type="collidable" gid="133" x="85" y="108" width="64" height="47"/>
+  <object id="254" name="call" type="collidable" gid="133" x="894" y="208" width="64" height="47"/>
+  <object id="255" name="call" type="collidable" gid="135" x="917" y="270" width="45" height="48"/>
+  <object id="257" name="call" type="collidable" gid="136" x="569" y="272" width="211" height="156"/>
+  <object id="258" name="magnusP" type="location" x="692" y="374">
+   <point/>
+  </object>
+  <object id="259" name="samsP" type="location" x="632" y="374">
+   <point/>
+  </object>
+  <object id="260" name="rabbitP" type="locationP" x="654" y="299">
+   <point/>
+  </object>
+  <object id="262" name="duffyP" type="locationP" x="582" y="374">
+   <point/>
+  </object>
+  <object id="264" name="nextLevel" type="teleport" x="778" y="296">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
